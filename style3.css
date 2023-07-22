@@ -1,0 +1,101 @@
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation:colorchanger;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count:1;
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: both;
+   
+    
+
+    /* animation: colorchanger;
+    animation-duration: 10s;
+    animation-delay: 2s; */
+}
+/* @keyframes colorchanger{
+    from {background-color:black;}
+    to{background-color: yellow;}
+} */
+
+@keyframes colorchanger{
+    0%{
+        background-color: yellowgreen;
+        top: 0px;
+        left: 0px;
+
+    }
+    25%{
+        background-color: blue;
+        top: 0px;
+        left: 400px;
+
+    }
+    
+    50%{
+        background-color:pink;
+        top: 200px;
+        left: 400px;
+    }
+    75%{
+        background-color:gold;
+        top: 200px;
+        left:0px;
+    }
+    100%{
+        background-color:lightsalmon;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.circle{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin-left: 50%;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    animation:bouncing;
+    animation-timing-function:ease-in;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes bouncing{
+    from{
+        background-color: yellow;
+        top:400px;
+        left: 30%;
+        right: 30%;
+
+    }
+    to{
+        background-color: black;
+        top: 0px;
+        left: 30%;
+        right: 30%;
+
+    }
+
+
+}
+
+button{
+    background-color: black;
+    color:wheat;
+    transition:background-color 2s,padding 2s;
+
+
+}
+button:hover{
+    background-color: green;
+    padding: 10px 12px;
+}

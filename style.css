@@ -1,0 +1,60 @@
+.hover:hover{
+    background-color: red;
+    color: white;
+}
+input:focus{
+    color: red;
+    background-color:black;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover{
+    color: pink;
+}
+a:active{
+    color:blue;
+}
+/* a:visited{
+    color:red;
+} */
+
+/* a:first-child{
+    color: yellow;
+} */
+a:nth-child(odd){
+    background-color: black;
+}
+a:nth-child(even){
+    background-color: red;
+}
+p{
+    font-size: 30px;
+}
+p::first-line{
+    background-color: black;
+    color: white;
+    
+
+}
+
+p::after{
+    content: "- akshay bhaiya";
+    color: aquamarine;
+}
+p::before{
+    content: "- aditya jain";
+    color: aquamarine;
+}
+
+p::selection{
+    background-color: red;
+    color: purple;
+}
+ul li::marker{
+    background-color: yellow;
+    color: red;
+}

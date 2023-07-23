@@ -1,0 +1,42 @@
+@media (max-width:600px){
+    body{
+        background-color: black;
+    }
+    .div::after{
+        content: "small mobiles";
+    }
+}
+@media (min-width:600px){
+    body{
+        background-color: red;
+    }
+    .div::after{
+        content: "big mobiles";
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color: blue;
+    }
+    .div::after{
+        content: "potrait tablets";
+    }
+    
+}
+@media (min-width:992px){
+    body{
+        background-color: orange;
+    }
+    .div::after{
+        content: "laptop";
+    }
+}
+@media (min-width:1200px){
+    body{
+        background-color:goldenrod;
+    }
+    .div::after{
+        content: "large screen";
+    }
+}
+

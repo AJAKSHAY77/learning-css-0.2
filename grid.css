@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px 900px 200px;
+}
+
+.main{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: blue;
+    align-self: flex-end;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color:red;
+}
